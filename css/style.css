@@ -121,3 +121,13 @@ main{
 .contCentrale .numero{
     font-size: 1.5rem;
 }
+
+
+.contScheda{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.titleScheda{
+    border-bottom: 1px solid grey;
+}
