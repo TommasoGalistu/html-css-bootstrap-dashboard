@@ -4,11 +4,17 @@
     border: 1px solid red;
 }
 [class*=row]{
-    
+    min-height: 3rem;
     background-color: rgba(255, 255, 255, 0.537);
     border: 1px solid white;
 }
 [class*=col]{
+    min-height: 3rem;
+    background-color: rgba(255, 0, 0, 0.541);
+    border: 1px solid white;
+}
+[class*=prova]{
+    min-height: 3rem;
     background-color: rgba(255, 0, 0, 0.541);
     border: 1px solid white;
 }
@@ -19,7 +25,9 @@
     display: flex;
 }
 /* header */
-
+header{
+    
+}
 /* menu laterale */
 .my-cont-menu{
     width: 84px;
@@ -28,10 +36,13 @@
      background-color: grey;
 }
 
-.contProva{
-
+.prova{
+    margin: 1rem 0;
 }
 
+
+
+/* inizio main */
 main{
     width: calc(100vw - 84px);
     /* debug */
