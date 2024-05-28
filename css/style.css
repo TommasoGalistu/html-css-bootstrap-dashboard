@@ -102,10 +102,17 @@ main{
     height: calc(100vh - var(--altezzaHeader));
     
 
-    /* debug */
-    background-color: black;
+    
 }
 
-main:first-child{
+#contHeadMain {
     background-color: var(--backgroundColorHeadMain);
+    color: white;
+}
+
+.testoPercorso{
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 30px;
+    background-color: rgba(38, 45, 130, 0.3);
 }
