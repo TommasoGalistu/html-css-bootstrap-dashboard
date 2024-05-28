@@ -33,14 +33,14 @@
 
 header{
     
-    z-index: 100;
+    
 }
  
 header .contHeaderTop{
     width: 100%;
     height: var(--altezzaHeader);
     background-color: var(--backgroundcolorHeade);
-    position: fixed;
+    z-index: 100;
     display: flex;
     align-items: center;
 }
@@ -75,7 +75,7 @@ header .contImmagine{
 /* menu laterale */
 .my-cont-menu{
     width: var(--larghezzaSidebarr);
-    height: 100vh;
+    height: calc(100vh - var(--altezzaHeader));
     overflow-y: hidden;
     position: block;
     /* debug */
@@ -97,8 +97,9 @@ header .contImmagine{
 /* inizio main */
 main{
     overflow-y: scroll;
+    margin-top: var(--altezzaHeader);
     width: calc(100vw - var(--larghezzaSidebarr));
-    height: calc(100vw - var(--altezzaHeader));
+    height: calc(100vh - var(--altezzaHeader));
     
 
     /* debug */
