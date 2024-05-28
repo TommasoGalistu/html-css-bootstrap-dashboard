@@ -1,0 +1,10 @@
+
+
+@media all and (min-width: 960px) {
+    .my-cont-menu{
+        width: 114px;
+        
+    }
+    main{
+        width: calc(100vw - 114px);    }
+}

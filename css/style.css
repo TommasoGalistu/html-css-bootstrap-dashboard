@@ -1,0 +1,41 @@
+[class*=container]{
+    min-height: 3rem;
+    background-color: rgb(116, 111, 111);
+    border: 1px solid red;
+}
+[class*=row]{
+    
+    background-color: rgba(255, 255, 255, 0.537);
+    border: 1px solid white;
+}
+[class*=col]{
+    background-color: rgba(255, 0, 0, 0.541);
+    border: 1px solid white;
+}
+
+
+/* contenitore principale */
+.contenitorePrincipale{
+    display: flex;
+}
+/* header */
+
+/* menu laterale */
+.my-cont-menu{
+    width: 84px;
+    height: 100vh;
+    /* debug */
+     background-color: grey;
+}
+
+.contProva{
+
+}
+
+main{
+    width: calc(100vw - 84px);
+    /* debug */
+    
+    height: 100vh;
+    background-color: black;
+}
