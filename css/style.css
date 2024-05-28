@@ -76,21 +76,21 @@ header .contImmagine{
 .my-cont-menu{
     width: var(--larghezzaSidebarr);
     height: calc(100vh - var(--altezzaHeader));
-    overflow-y: hidden;
-    position: block;
-    /* debug */
-    
-     background-color: grey;
+    background-image: url('../img/sidebar-bg.png');
+    background-color: var(--backgroundcolorSidebar);
+    color: white;
 }
 
 .my-cont-menu .container {
-    /* height: var(--altezzaSidebar); */
+    height: var(--altezzaSidebar);
 }
 .my-cont-menu .row {
-    /* height:calc(var(--altezzaSidebar) - 2px) ; */
+    height:calc(var(--altezzaSidebar) - 2px) ;
 }
 
-
+.contIcon span{
+    font-size: 0.8rem;
+}
 
 
 
