@@ -1,6 +1,8 @@
 :root{
-    --dimensioniHeader: 3rem;
+    --dimensioniHeader: 69px;
+    --backgroundcolorHeade: white;
     --larghezzaSidebarr: 84px;
-    --altezzaSidebar: 100vh;
+    --altezzaSidebar: calc(100vh - var(--dimensioniHeader));
     --backgroundColorHeadMain: #1b72e8; 
+    --backgrondcolorSearchBarrHeader: rgb(185, 185, 185);
 }

@@ -18,14 +18,31 @@
         <div class="contenitorePrincipale">
             <header>
                 <!-- menu fisso in alto -->
-                <!-- per l'altezza dell'header c'è la variabile --dimensioniHeader -->  
-                <div class="container-fluid position-fixed">
-                    <div class="row">
-                        <div class="col-auto"></div>
-                        <div class="col"></div>
-                        <div class="col-auto"></div>
+                <!-- per l'altezza dell'header c'è la variabile --dimensioniHeader --> 
+                <div class="contHeaderTop ">
+                    <div class="container-fluid position-fixed align-items-center">
+                        <div class="row">
+                            <!-- contenitore logo -->
+                            <div class="col-auto ">
+                                <div class="contImmagine">
+                                    <a href="#"><img class="d-lg-none" src="img/mobile-logo.png" alt="logo boolean"></a>
+                                    <a href="#"><img class="d-none d-lg-block" src="img/logo.svg" alt="logo boolean"></a>
+                                </div>
+                            </div>
+                            <!-- contenitore search input -->
+                            
+                            <div class="col">
+                                <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Prova a cercare:Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+                            <div class="col-auto"></div>
+                        </div>
                     </div>
-                </div>
+                </div> 
                 <!-- slidebar a sinistra -->
                 <!-- container per dimensioni fisse -->
                 <div class="my-cont-menu">

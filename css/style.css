@@ -1,4 +1,4 @@
-[class*=container]{
+/* [class*=container]{
     min-height: 3rem;
     background-color: rgb(116, 111, 111);
     border: 1px solid red;
@@ -17,7 +17,7 @@
     min-height: 3rem;
     background-color: rgba(255, 0, 0, 0.541);
     border: 1px solid white;
-}
+} */
 
 .dimensioniProva{
     height: 50rem;
@@ -30,9 +30,46 @@
     height: 100vh;
 }
 /* header */
+
 header{
-    /* per l'altezza dell'header c'è la variabile --dimensioniHeader */
+    
+    background-color: var(--backgroundcolorHeade);
 }
+ 
+header .contHeaderTop{
+    width: 100%;
+    height: var(--dimensioniHeader);
+    display: flex;
+    align-items: center;
+}
+
+header .contImmagine{
+    height: 2rem;
+}
+
+.contImmagine img{
+    height: 100%;
+}
+
+/* castomizzazione stile della search input */
+
+.input-group-text{
+    background-color: var(--backgrondcolorSearchBarrHeader);
+    border: none;
+}
+
+.form-control{
+    background-color: var(--backgrondcolorSearchBarrHeader);
+    border: none;
+}
+
+.form-control:focus {
+    background-color: var(--backgrondcolorSearchBarrHeader);
+    box-shadow: none;
+}
+
+
+
 /* menu laterale */
 .my-cont-menu{
     width: var(--larghezzaSidebarr);
