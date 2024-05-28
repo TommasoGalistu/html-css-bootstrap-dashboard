@@ -1,5 +1,5 @@
 :root{
-    --dimensioniHeader: 69px;
+    --altezzaHeader: 69px;
     --backgroundcolorHeade: white;
     --larghezzaSidebarr: 84px;
     --altezzaSidebar: calc(100vh - var(--dimensioniHeader));

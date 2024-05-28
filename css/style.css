@@ -33,12 +33,15 @@
 
 header{
     
-    background-color: var(--backgroundcolorHeade);
+    
+    z-index: 100;
 }
  
 header .contHeaderTop{
     width: 100%;
-    height: var(--dimensioniHeader);
+    height: var(--altezzaHeader);
+    background-color: var(--backgroundcolorHeade);
+    position: fixed;
     display: flex;
     align-items: center;
 }
@@ -94,8 +97,8 @@ header .contImmagine{
 main{
     overflow-y: scroll;
     width: calc(100vw - 84px);
-    height: calc(100vh - 3rem);
-    margin-top: var(--dimensioniHeader);
+    height: calc(100vw - var(--altezzaHeader));
+    margin-top: var(--altezzaHeader);
 
     /* debug */
     background-color: black;
