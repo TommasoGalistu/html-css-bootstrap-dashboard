@@ -19,14 +19,19 @@
     border: 1px solid white;
 }
 
+.dimensioniProva{
+    height: 50rem;
+}
+
 
 /* contenitore principale */
 .contenitorePrincipale{
     display: flex;
+    height: 100vh;
 }
 /* header */
 header{
-    
+    /* per l'altezza dell'header c'è la variabile --dimensioniHeader */
 }
 /* menu laterale */
 .my-cont-menu{
@@ -50,14 +55,12 @@ header{
 
 /* inizio main */
 main{
+    overflow-y: scroll;
     width: calc(100vw - 84px);
     height: calc(100vh - 3rem);
-    margin-top: 3rem;
+    margin-top: var(--dimensioniHeader);
 
     /* debug */
-    
-    
-    
     background-color: black;
 }
 

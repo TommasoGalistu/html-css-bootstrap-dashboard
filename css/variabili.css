@@ -1,4 +1,6 @@
 :root{
+    --dimensioniHeader: 3rem;
     --larghezzaSidebarr: 84px;
     --altezzaSidebar: 100vh;
+    --backgroundColorHeadMain: #1b72e8; 
 }
