@@ -33,7 +33,6 @@
 
 header{
     
-    
     z-index: 100;
 }
  
@@ -76,17 +75,19 @@ header .contImmagine{
 /* menu laterale */
 .my-cont-menu{
     width: var(--larghezzaSidebarr);
-    height: var(--altezzaSidebar);
+    height: 100vh;
+    overflow-y: hidden;
+    position: block;
     /* debug */
     
      background-color: grey;
 }
 
 .my-cont-menu .container {
-    height: var(--altezzaSidebar);
+    /* height: var(--altezzaSidebar); */
 }
 .my-cont-menu .row {
-    height:calc(var(--altezzaSidebar) - 2px) ;
+    /* height:calc(var(--altezzaSidebar) - 2px) ; */
 }
 
 
@@ -96,9 +97,9 @@ header .contImmagine{
 /* inizio main */
 main{
     overflow-y: scroll;
-    width: calc(100vw - 84px);
+    width: calc(100vw - var(--larghezzaSidebarr));
     height: calc(100vw - var(--altezzaHeader));
-    margin-top: var(--altezzaHeader);
+    
 
     /* debug */
     background-color: black;

@@ -2,7 +2,7 @@
     --altezzaHeader: 69px;
     --backgroundcolorHeade: white;
     --larghezzaSidebarr: 84px;
-    --altezzaSidebar: calc(100vh - var(--dimensioniHeader));
+    --altezzaSidebar: calc(100vh - var(--altezzaHeader));
     --backgroundColorHeadMain: #1b72e8; 
     --backgrondcolorSearchBarrHeader: rgb(185, 185, 185);
 }
