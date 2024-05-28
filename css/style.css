@@ -30,15 +30,21 @@ header{
 }
 /* menu laterale */
 .my-cont-menu{
-    width: 84px;
-    height: 100vh;
+    width: var(--larghezzaSidebarr);
+    height: var(--altezzaSidebar);
     /* debug */
+    
      background-color: grey;
 }
 
-.prova{
-    margin: 1rem 0;
+.my-cont-menu .container {
+    height: var(--altezzaSidebar);
 }
+.my-cont-menu .row {
+    height:calc(var(--altezzaSidebar) - 2px) ;
+}
+
+
 
 
 
