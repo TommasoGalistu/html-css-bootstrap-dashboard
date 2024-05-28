@@ -116,3 +116,8 @@ main{
     border-radius: 30px;
     background-color: rgba(38, 45, 130, 0.3);
 }
+
+
+.contCentrale .numero{
+    font-size: 1.5rem;
+}
