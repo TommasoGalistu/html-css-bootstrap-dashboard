@@ -51,8 +51,16 @@ header{
 /* inizio main */
 main{
     width: calc(100vw - 84px);
+    height: calc(100vh - 3rem);
+    margin-top: 3rem;
+
     /* debug */
     
-    height: 100vh;
+    
+    
     background-color: black;
+}
+
+main:first-child{
+    background-color: var(--backgroundColorHeadMain);
 }
