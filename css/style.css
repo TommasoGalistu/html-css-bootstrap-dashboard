@@ -72,7 +72,13 @@ header .contImmagine{
     box-shadow: none;
 }
 
-
+/* header in alto a destra */
+.dropdown .btn-secondary{
+    background-color: var(--backgroundcolorHeade);
+    color: orange;
+    border: none;
+    padding: 0;
+}
 
 /* menu laterale */
 .my-cont-menu{
