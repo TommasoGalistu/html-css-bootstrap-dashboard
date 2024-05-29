@@ -18,7 +18,9 @@
     background-color: rgba(255, 0, 0, 0.541);
     border: 1px solid white;
 } */
-
+*{
+    font-family: Roboto;
+}
 .dimensioniProva{
     height: 50rem;
 }
@@ -117,7 +119,9 @@ main{
     background-color: rgba(38, 45, 130, 0.3);
 }
 
-
+.titoloCol{
+    width: 400;
+}
 .contCentrale .numero{
     font-size: 1.5rem;
 }
@@ -130,4 +134,35 @@ main{
 
 .titleScheda{
     border-bottom: 1px solid grey;
+}
+
+.fa-code{
+    background-color: orange;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.etichetta{
+    padding: 0.1rem 0.4rem;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.etichetta.done{
+    background-color: green;
+}
+.etichetta.process{
+    background-color: rgb(255, 221, 0);
+}
+.etichetta.failed{
+    background-color: red;
+}
+
+.fa-pen, .fa-trash{
+    padding: 0.3rem;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 5px;
+
 }
