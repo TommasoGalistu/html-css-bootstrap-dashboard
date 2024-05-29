@@ -136,6 +136,9 @@ main{
 /* parte alta 3 colonna di destra */
 
 /* funzionalità aggiunta studente */
+.contSlide{
+    
+}
 .pulsanteAggiungiStudente{
     padding: 10px;
     border: 1px solid white;
@@ -154,6 +157,11 @@ main{
     background-color: rgb(182, 182, 182);
 
 }
+.pulsanteAggiungiStudente:active .slideMenu{
+    
+    width: var(--larghezzaSlidebarapparsa);
+
+}
 .slideMenu{
     height: 100vh;
     width: var(--larghezzaSlidebarapparsa);
@@ -163,8 +171,9 @@ main{
     right: 0;
     z-index: 50;
     padding: 10px;
-    
+    padding-bottom: 2rem;
 }
+
 .allineamento{
     text-align: right;
     font-size: 1.5rem;
@@ -200,6 +209,14 @@ main{
 .backGroundContenuti{
     background-color: white;
     border-radius: 10px;
+}
+.backGroundContenuti.uno .row:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+.backGroundContenuti.due .col:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
 }
 
 .titleScheda{
