@@ -113,6 +113,7 @@ main{
     
 }
 
+/* parte in alto del main */
 #contHeadMain {
     background-color: var(--backgroundColorHeadMain);
     color: white;
@@ -132,7 +133,33 @@ main{
     font-size: 1.5rem;
 }
 
+/* parte alta 3 colonna di destra */
+.pulsanteAggiungiStudente{
+    padding: 1.5rem;
+    background-color: red;
+}
+.pulsanteAggiungiStudente:hover .slideMenu{
+    display: block;
+}
+.slideMenu{
+    
+    height: 100vh;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    padding: 10px;
+    /* debug */
+    border: 3px solid red;
+}
+.allineamento{
+    text-align: right;
+    font-size: 1.5rem;
+}
 
+/* parte inferiore main */
 .contScheda{
     border: 1px solid grey;
     border-radius: var(--borderradiusSchede);
