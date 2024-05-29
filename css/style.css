@@ -100,6 +100,11 @@ header .contImmagine{
     font-size: 0.8rem;
 }
 
+.contIcon:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
 
 
 /* inizio main */
@@ -253,6 +258,15 @@ main{
     color: grey;
     border-radius: 5px;
 
+}
+
+.faqContainer:hover {
+    
+    box-shadow: 0px 4px 7px 0px rgba(90, 145, 255, 0.3),
+0px -4px 7px 0px rgba(90, 145, 255, 0.3),
+-4px 0px 7px 0px rgba(90, 145, 255, 0.3),
+4px 0px 7px 0px rgba(90, 145, 255, 0.3);
+background-color: white;
 }
 
 /* parte di destra del main */

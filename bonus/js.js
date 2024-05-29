@@ -19,3 +19,5 @@ xClose.addEventListener('click', () => {
     slideMenulaterale.classList.add('d-none')
     backgroundSlideBar.classList.add('d-none')
 })
+
+

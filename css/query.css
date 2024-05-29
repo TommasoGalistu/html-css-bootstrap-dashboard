@@ -1,11 +1,13 @@
 
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 768px) {
     .slideMenu{
-        width: calc(var(--larghezzaSlidebarapparsa) + 200px);
+        width: var(--larghezzaSlidebarapparsaResponsive);
+ 
     }
     .backGroundProva{
-        width: calc(100vw - (var(--larghezzaSlidebarapparsa) + 200px));
+        width: calc(100vw - var(--larghezzaSlidebarapparsaResponsive));
+
     }
 }
 @media all and (min-width: 992px) {
