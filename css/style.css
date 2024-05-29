@@ -129,11 +129,21 @@ main{
 
 .contScheda{
     border: 1px solid grey;
+    border-radius: var(--borderradiusSchede);
+}
+
+.backGroundTitolo{
+    background-color: #f7f7f7;
+}
+
+.backGroundContenuti{
+    background-color: white;
     border-radius: 10px;
 }
 
 .titleScheda{
     border-bottom: 1px solid grey;
+    
 }
 
 .fa-code{
