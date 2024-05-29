@@ -176,3 +176,13 @@ main{
     border-radius: 5px;
 
 }
+
+/* parte di destra del main */
+
+/* seconda scheda con i grafici */
+.contImmagine.stats{
+    width: 100%;
+}
+.contImmagine.stats img{
+    width: 100%;
+}
