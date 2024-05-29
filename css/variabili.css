@@ -1,7 +1,8 @@
 :root{
     --altezzaHeader: 69px;
     --backgroundcolorHeade: white;
-    --larghezzaSidebarr: 84px;
+    --larghezzaSidebarr: 55px;
+    --larghezzaSidebarrResponsive: 110px;
     --altezzaSidebar: calc(100vh - var(--altezzaHeader));
     --backgroundColorHeadMain: #1b72e8; 
     --backgroundcolorSidebar: #051e34;
