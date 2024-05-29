@@ -134,30 +134,58 @@ main{
 }
 
 /* parte alta 3 colonna di destra */
+
+/* funzionalità aggiunta studente */
 .pulsanteAggiungiStudente{
-    padding: 1.5rem;
-    background-color: red;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 0.5rem;
 }
-.pulsanteAggiungiStudente:hover .slideMenu{
-    display: block;
+
+.pulsanteAggiungiStudente:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    
+}
+.pulsanteAggiungiStudente:active {
+    
+    background-color: rgb(182, 182, 182);
+
 }
 .slideMenu{
-    
     height: 100vh;
-    width: 500px;
+    width: var(--larghezzaSlidebarapparsa);
     background-color: white;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 50;
     padding: 10px;
-    /* debug */
-    border: 3px solid red;
+    
 }
 .allineamento{
     text-align: right;
     font-size: 1.5rem;
 }
+
+.chiudiFinestra:hover{
+    cursor: pointer;
+}
+
+.backGroundProva{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: calc(100vw - var(--larghezzaSlidebarapparsa));
+}
+
+/* fine funzionalità aggiungi studente */
+
 
 /* parte inferiore main */
 .contScheda{
